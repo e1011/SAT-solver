@@ -1,4 +1,4 @@
-This project implements an optimized SAT solver in Python. The SAT problem involves determining whether there exists an assignment of variables that satisfies a given Boolean formula.
+This project implements an optimized solver for the NP-Complete SAT problem in Python. The SAT problem involves determining whether there exists an assignment of variables that satisfies a given Boolean formula.
 
 Example:  
 Given the formula: (x ∨ y) ∧ (¬x ∨ z) ∧ (¬y ∨ ¬z)  
