@@ -49,9 +49,9 @@ Example:
 ```
 python generator.py 100 400 3 7 5
 ```
-This generates 5 files in the `test` folder, each with 100 variables, 400 clauses, and clause lengths between 3 and 7.
+This generates 5 files in the `tests` folder, each with 100 variables, 400 clauses, and clause lengths between 3 and 7.
 
 #### Output
 
-Generated files are placed in the `test` folder with a comment indicating whether they are satisfiable or not (determined using MiniSat).
+Generated files are placed in the `tests` folder with a comment indicating whether they are satisfiable or not (determined using MiniSat).
 
