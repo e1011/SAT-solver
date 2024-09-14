@@ -18,7 +18,7 @@ A satisfying assignment would be: x = true, y = false, z = true
 1. Place your CNF formula in a file named `test.cnf` in the project directory.
 2. Run the solver:
    ```
-   python solver.py  
+   python main.py  
    ```
 
 CNF is a standard format for representing Boolean formulas:
