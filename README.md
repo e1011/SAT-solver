@@ -21,19 +21,16 @@ A satisfying assignment would be: x = true, y = false, z = true
    python main.py  
    ```
 
-CNF is a standard format for representing Boolean formulas:
-- Each line represents a clause.
-- Variables are represented by positive integers.
-- Negated variables are represented by negative integers.
-- `0` marks the end of a clause.
+[CNF](https://people.sc.fsu.edu/~jburkardt/data/cnf/cnf.html) is a standard format for representing Boolean formulas.
 
 Example:
 ```
+p cnf 
 1 2 -3 0
 -1 -2 3 0
 2 3 0
 ```
-This represents the formula: (x₁ ∨ x₂ ∨ ¬x₃) ∧ (¬x₁ ∨ ¬x₂ ∨ x₃) ∧ (x₂ ∨ x₃)
+This represents the formula: (x₁ ∨ x₂ ∨ ¬x₃) ∧ (¬x₁ ∨ ¬x₂ ∨ x₃) ∧ (x₂ ∨ x)
 
 ### 2. CNF Generator
 
