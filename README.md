@@ -15,18 +15,11 @@ A satisfying assignment would be: x = true, y = false, z = true
 ## Components
 
 ### 1. SAT Solver
-
-The core component that takes a Boolean formula in Conjunctive Normal Form (CNF) and determines its satisfiability.
-
-#### Usage
-
 1. Place your CNF formula in a file named `test.cnf` in the project directory.
 2. Run the solver:
    ```
    python solver.py  
    ```
-
-#### CNF Format
 
 CNF is a standard format for representing Boolean formulas:
 - Each line represents a clause.
